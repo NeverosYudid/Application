@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Hello friend!"
+        android:textSize="90px"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Are you happy?"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/botonhappy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#83CFC6"
+        android:text="Click here!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="You're sad?"
+        android:textSize="50px" />
+
+
+    <Button
+        android:id="@+id/botonsad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:background="#9DDFAD"
+        android:text="Click here!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="You don't have anything to do?"
+        android:textSize="50px" />
+
+
+    <Button
+        android:id="@+id/botondont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:background="#0D5E21"
+        android:text="Click here!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:text="Are you sleepy?"
+        android:textSize="50px" />
+
+
+    <Button
+        android:id="@+id/botonsleepy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:background="#625BD8"
+        android:text="Click here!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"
+        android:text="Do you want to quit your career?"
+        android:textSize="50px" />
+
+
+    <Button
+        android:id="@+id/botonquit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:background="#A267DC"
+        android:text="Click here!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:text="Do you feel discouraged?"
+        android:textSize="50px" />
+
+
+    <Button
+        android:id="@+id/botonfeel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="570dp"
+        android:background="#E883DA"
+        android:text="Click here!" />
+
+
+
+
+
+
+</RelativeLayout>
